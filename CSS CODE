@@ -1,0 +1,56 @@
+/* Example of using class selector */
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+/* Example of using element selector */
+h2 {
+    color: rgb(111, 62, 66);
+}
+
+/* Example of using ID selector */
+#special-heading {
+    font-weight: bold;
+}
+
+/* Example of using pseudo-class selector */
+ul li:nth-child(odd) {
+    font-weight: bold;
+}
+
+/* Example of modifying the text color for all elements */
+* {
+    color: #2f7fa3;
+}
+
+/* Example of overriding the text color for a specific element */
+p {
+    color: initial;
+}
+
+/* Set a background image for the entire page */
+body {
+    background-image: url(/neom-SUIMrEKVOXc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Set the width of the div.wrapper */
+.wrapper {
+    background-color: #8f9e51;
+}
+
+/* Set the header width and center it */
+header {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #eaeaea;
+}
+
+/* Apply CSS filter effects to the photo */
+#myPhoto {
+    filter: grayscale(100%);
+}
