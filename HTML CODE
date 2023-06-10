@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Challenge/Lab One</title>
+    <link rel="stylesheet" href="part1.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Ritik Patel</h1>
+        </header>
+        <main>
+            <h2>A Little More About Me</h2>
+            <section>
+                <img src="PART 1 PHOTO.jpg" alt="My Photo" width="210" height="200">
+            </section>
+            <p>
+                My name is Ritik Patel. I am currently pursuing a course in programming. In the world of programming, I find joy in creating innovative solutions and bringing ideas to life through code. Writing has always been a passion of mine, as it allows me to express my thoughts and imagination. When I'm not programming or writing, you can find me engrossed in a captivating book or playing my favorite sports. I believe that continuous learning and exploration are the keys to personal and professional growth, and I'm excited to embark on this journey of knowledge and discovery.
+            </p>
+            <h3>A List of My Favorite Things</h3>
+            <ul>
+                <li>Writing</li>
+                <li>Playing</li>
+                <li>Reading</li>
+            </ul>
+        </main>
+        <footer>
+            <p>CSS Challenge/Lab One - COMP1054 - Winter2023</p>
+        </footer>
+    </div>
+</body>
+</html>
